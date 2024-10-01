@@ -2,8 +2,9 @@
 
 ## Table of Contents
 
-<span>1. Introduction</span> | <span>2. Steps and Commands Executed</span> | <span>3. Issues Faced and Solutions</span>  
-<span>4. Theoretical Analysis</span> | <span>5. Conclusion</span> | <span>6. Resources</span>
+| 1. Introduction | 2. Steps and Commands Executed | 3. Issues Faced and Solutions |
+|-----------------|--------------------------------|-------------------------------|
+| 4. Theoretical Analysis | 5. Conclusion | 6. Resources |
 
 ## Introduction
 

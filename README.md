@@ -17,7 +17,7 @@ This document provides a detailed overview of the SSH protocol exercises complet
 
 1.**SSH Connection**
 
-- Command: ssh mounir@192.67.197.121
+- Command: `ssh mounir@192.67.197.121`
 - Goal: Establish a secure connection to a remote server.
 
 2.**Key-Based Authentication**

@@ -46,7 +46,7 @@ This document provides a detailed overview of the SSH protocol exercises complet
 6.**Wireshark Installation**
 
 - Installation: `sudo apt update && sudo apt install wireshark`
-- startup: sudo wireshark
+- startup: `sudo wireshark`
 - Goal: Capture and analyze network traffic using Wireshark.
 
 7.**Setting up Nginx**

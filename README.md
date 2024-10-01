@@ -22,19 +22,19 @@ This document provides a detailed overview of the SSH protocol exercises complet
 
 2.**Key-Based Authentication**
 
-- Command to generate keys: ssh-keygen -t ed25519
-- Command to copy the public key: ssh-copy-id mounir@192.67.197.121
+- Command to generate keys: `ssh-keygen -t ed25519`
+- Command to copy the public key: `ssh-copy-id mounir@192.67.197.121`
 - Goal: Ensure passwordless SSH login.
 
 3.**Transferring Files with SCP and SFTP**
 
-- SCP command: scp file.txt mounir@192.67.197.121:/home/mounir/
-- SFTP: sftp mounir@192.67.197.121
+- SCP command: `scp file.txt mounir@192.67.197.121:/home/mounir/`
+- SFTP: `sftp mounir@192.67.197.121`
 - Goal: Transfer files securely between local and remote servers.
 
 4.**Port Forwarding and Tunneling**
 
-- Command: ssh -L 8080:localhost:80 mounir@192.67.197.121
+- Command: `ssh -L 8080:localhost:80 mounir@192.67.197.121`
 - Goal: Redirect local port 8080 to a remote server's port 80, allowing secure web access.
 
 5.**Securing SSH with Fail2Ban**
@@ -45,14 +45,14 @@ This document provides a detailed overview of the SSH protocol exercises complet
 
 6.**Wireshark Installation**
 
-- Installation: sudo apt update && sudo apt install wireshark
+- Installation: `sudo apt update && sudo apt install wireshark`
 - startup: sudo wireshark
 - Goal: Capture and analyze network traffic using Wireshark.
 
 7.**Setting up Nginx**
 
-- Installation: sudo apt install nginx
-- startup: sudo systemctl start nginx
+- Installation: `sudo apt install nginx`
+- startup: `sudo systemctl start nginx`
 - Goal: Set up Nginx to handle web traffic, and redirect traffic from port 8080.
 
 

@@ -2,12 +2,12 @@
 
 ## Table of Contents
 
-1.Introduction
-2.Steps and Commands Executed
-3.Issues Faced and Solutions
-4.Theoretical Analysis
-5.Conclusion
-6.Resources
+- 1.Introduction
+- 2.Steps and Commands Executed
+- 3.Issues Faced and Solutions
+- 4.Theoretical Analysis
+- 5.Conclusion
+- 6.Resources
 
 ## Introduction
 

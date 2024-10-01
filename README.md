@@ -39,7 +39,7 @@ This document provides a detailed overview of the SSH protocol exercises complet
 
 5.**Securing SSH with Fail2Ban**
 
-- Installation: sudo apt install fail2ban
+- Installation: `sudo apt install fail2ban`
 - Configuration: Editing /etc/fail2ban/jail.local to activate SSH protection.
 - Goal: Secure the SSH server by blocking IPs after multiple failed login attempts.
 

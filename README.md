@@ -2,18 +2,18 @@
 
 ## Table of Contents
 
-- 1.Introduction
-- 2.Steps and Commands Executed
-- 3.Issues Faced and Solutions
-- 4.Theoretical Analysis
-- 5.Conclusion
-- 6.Resources
+1.Introduction
+2.Steps and Commands Executed
+3.Issues Faced and Solutions
+4.Theoretical Analysis
+5.Conclusion
+6.Resources
 
-## Introduction
+##Introduction
 
 This document provides a detailed overview of the SSH protocol exercises completed as part of the EECS 2024 program. The objective was to master secure remote connections via SSH, implement key-based authentication, transfer files, perform port forwarding, and secure the server against brute-force attacks using tools like Fail2Ban.
 
-## Steps and Commands Executed
+##Steps and Commands Executed
 
 1.**SSH Connection**
 
@@ -56,25 +56,26 @@ This document provides a detailed overview of the SSH protocol exercises complet
 - Goal: Set up Nginx to handle web traffic, and redirect traffic from port 8080.
 
 
-## Issues Faced and Solutions
+##Issues Faced and Solutions
 
 Problem: Configuration issues when attempting to bind port 8080 for local port forwarding.
 Solution: Utilized Nginx to bypass the conflict and correctly route traffic to the desired port. Nginx's reverse proxy capabilities allowed smoother management of port configurations and avoided conflicts with other services.
 
-## Theoretical Analysis
+##Theoretical Analysis
 
 SSH is essential for maintaining confidentiality and integrity when managing remote connections. The protocol encrypts all data exchanges, preventing third-party interception. Additional security measures like port change and Fail2Ban help protect against automated brute-force attacks, ensuring only authorized users can access the system.
 
    - Port Change: Moving away from the default port 22 helps reduce attacks from automated scripts.
    - Fail2Ban: Provides automated protection by banning IPs after repeated failed login attempts.
 
-## Conclusion
+##Conclusion
 
 Throughout this exercise, we gained hands-on experience in using SSH for secure communication, file transfer, and remote server management. By mastering key-based authentication, SCP/SFTP, and port forwarding, we reinforced our understanding of the protocol's security. Additionally, integrating Fail2Ban enhanced our server's resilience to external threats.
 
-## Resources
+##Resources
 
 1. ChatGPT for troubleshooting and explanations.
 2. [Official SSH Documentation](https://man.openbsd.org/ssh)
 3. [Fail2Ban Documentation](https://www.fail2ban.org/wiki/index.php/Main_Page)
-4. [Nginx Tutorial](https://www.nginx.com/resources/wiki/start/)
+4. [Wireshark Documentation](https://www.wireshark.org/docs/wsug_html_chunked/)
+5. [Nginx Tutorial](https://www.nginx.com/resources/wiki/start/)
